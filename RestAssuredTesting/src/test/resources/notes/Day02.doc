@@ -1,0 +1,48 @@
+Different types of creating POST Request
+----------------------------------------
+
+
+1. HashMap - refer Eclipse
+2. using org.json - json deendency imp - refer code and pom -add json dependency
+3. using POJO(Plain old java object) - refer eclipse
+4. using an extrenal JSON file - refer Eclipse
+
+How to create own API
+-----------------------------------------
+Step 1: Node js
+npm - node package manager
+
+node --version
+npm --version
+
+
+Step 2: JSON server
+npm install -g json-server
+
+Step3: Save one json file
+"name.json" - All files
+
+How to start an API
+-----------------------------------------
+json-server name.json
+npx json-server --watch db.json
+json-server --watch db.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

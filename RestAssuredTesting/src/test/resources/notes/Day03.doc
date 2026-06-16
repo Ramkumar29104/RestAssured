@@ -1,0 +1,33 @@
+Day03
+------------
+
+How to specify Path and Query Parameter
+
+1. https://jsonplaceholder.typicode.com/todos?userId=1
+2. https://jsonplaceholder.typicode.com/todos?userId=1&id=7
+
+https://jsonplaceholder.typicode.com - DOMAIN
+todos = PATH
+After ? userId=1 = QUERY
+
+
+Path param  - we have to define as a key,value pair and mention the name of key inside the url
+query param - we have to simply define as a key, value pair, no need to mention
+
+Cookies and headers
+1. Cookies
+
+- Get Cookies through postman 
+- Get one exact cookie and print
+- Get all cookie and print
+
+1. Header
+
+- Get header through postman 
+- Get one exact header and print
+- Get all header and print
+
+
+
+
+

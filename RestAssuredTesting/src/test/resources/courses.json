@@ -1,0 +1,55 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Praveena",
+      "location": "Madurai",
+      "phone": "2585258236",
+      "courses": [
+        "Java",
+        "Appium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Kalai",
+      "location": "Chennai",
+      "phone": "2585258236",
+      "courses": [
+        "Javascript",
+        "Appium"
+      ]
+    },
+    {
+      "courses": [
+        "Banking",
+        "Java"
+      ],
+      "phone": "8225986588",
+      "name": "Kalai1",
+      "location": "MAdurai1",
+      "id": "P4hDh1q"
+    },
+    {
+      "name": "Visa",
+      "id": "5",
+      "location": "Neyveli",
+      "phone": "8974568789",
+      "courses": [
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "courses": [
+        "Java",
+        "Appium"
+      ],
+      "phone": "8220992808",
+      "name": "Aravind",
+      "location": "Chennai",
+      "id": "4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

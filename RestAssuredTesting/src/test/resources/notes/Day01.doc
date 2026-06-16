@@ -1,0 +1,68 @@
+Pre requisite
+-------
+1. Java 9+ & Eclipse
+2. TestNG
+3. Maven(comes with Eclipse)
+
+Dependencies
+-------
+rest assured
+json-path
+json
+gson
+testng
+scribejava-apis
+json-schema-validator
+xml-schema-validator
+
+Dependency site: mvnrepository.com
+request response topic: reqres.in
+https://app.reqres.in/playground
+RestAssured: https://github.com/rest-assured/rest-assured/wiki/gettingstarted
+
+http request
+------
+get
+put
+post
+delete
+
+Important - Import static packages
+
+given - content type,cookies, add auth, add param, se headers info etc...
+when - get,post,put,delete
+then - validate status code, extract response, exact headers cookies & response body
+
+get
+----
+https://reqres.in/api/users
+
+post
+----
+https://reqres.in/api/users
+
+{
+  "name": "morphieus",
+  "job": "leader"
+}
+
+update
+----
+https://reqres.in/api/users/2
+
+{
+  "name": "morphieus",
+  "job": "support"
+}
+
+delete
+-----
+https://reqres.in/api/users/userid
+
+
+
+
+
+
+
+
